@@ -4,7 +4,6 @@
     <mt-swipe :auto="4000">
         <mt-swipe-item v-for="(item,i) in lunboList" :key="i">
             <img :src="item.imgUrl" alt="a">
-            <span>ssssssssssssssssssss</span>
         </mt-swipe-item>
     </mt-swipe>
     <!--九宫格-->
@@ -36,9 +35,12 @@ export default {
 .mint-swipe-items-wrap{
     height:160px;
 }
-.mint-swipe-items-wrap img{
-    /* width:100%; */
-   
+.mint-tabbar{
+    max-width: 460px;
 }
+/* .mint-swipe-items-wrap img{
+    width:100%;
+   
+} */
 </style>
 
