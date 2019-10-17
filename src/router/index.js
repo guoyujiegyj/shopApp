@@ -8,6 +8,7 @@ import Find from '@/components/find/Find'
 import Cart from '@/components/cart/Cart'
 
 import NewsList from '@/components/newsList/newsList'
+import NewsDetail from '@/components/newsList/newsDetail'
 Vue.use(Router)
 
 export default new Router({
@@ -40,6 +41,12 @@ export default new Router({
       path: '/news/newslist',
       name: 'newslist',
       component: NewsList
+    },
+    {
+      path: '/news/newsdetail/:id',
+      name: 'newsdetail',
+      component: NewsDetail,
+      props: true
     }
   ]
 })
