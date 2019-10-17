@@ -9,7 +9,7 @@
                     <div class="title">
                         <span class="zhaiyao">{{item.zhaiyao}}</span>
                         <p class='list_title'>
-                            <span class="time">{{item.addTime | dataFmt}}</span>
+                            <span class="time">{{item.addTime | dataFmt('YYYY/MM/DD h:mm:ss')}}</span>
                             <span class="click">{{item.click}}</span>
 
                         </p>

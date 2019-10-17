@@ -5,14 +5,11 @@ import App from './App'
 import router from './router'
 // 全局样式引入
 import './assets/css/base.css'
-Vue.config.productionTip = false
 
 // mint ui 部分
 // mintui 的全局样式。
 import '../node_modules/mint-ui/lib/style.css'
-import Mint from "mint-ui"
-Vue.use(Mint)
-
+import Mint from 'mint-ui'
 // 引入mui
 import '../libs/css/mui.min.css'
 import '../libs/fonts/mui.ttf'
@@ -20,26 +17,34 @@ import '../libs/fonts/mui.ttf'
 // 引入自定义http插件
 import myHttp from '@/plugin/http.js'
 import Axios from 'axios'
-Vue.use(myHttp)
-
-//域名基本配置
-Axios.defaults.baseURL='http://localhost:8080/static/'
 
 // 导入组件九宫格
 import MyUl from '@/components/common/Myul'
-Vue.component(MyUl.name, MyUl)
+
 // 导入title组件
 import MyTitle from '@/components/common/Title'
-Vue.component(MyTitle.name,MyTitle) 
 
 // 导入时间格式插件
 import moment from 'moment'
-Vue.filter('dataFmt', (v) => {
-  return moment(v).format('YYYY-MM-DD h:mm:ss')
+
+// 域名基本配置
+Axios.defaults.baseURL = 'http://localhost:8080/static/'
+
+Vue.filter('dataFmt', (v, data) => {
+  return moment(v).format(data)
 })
-new Vue({
+
+Vue.use(Mint)
+Vue.use(myHttp)
+Vue.component(MyUl.name, MyUl)
+Vue.component(MyTitle.name, MyTitle)
+
+Vue.config.productionTip = false
+
+let vRouter = new Vue({
   el: '#app',
   router,
   components: { App },
   template: '<App/>'
 })
+Vue.use(vRouter)
