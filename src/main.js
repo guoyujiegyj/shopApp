@@ -28,6 +28,9 @@ Axios.defaults.baseURL='http://localhost:8080/'
 // 导入组件九宫格
 import MyUl from '@/components/common/Myul'
 Vue.component(MyUl.name, MyUl)
+// 导入title组件
+import MyTitle from '@/components/common/Title'
+Vue.component(MyTitle.name,MyTitle) 
 
 new Vue({
   el: '#app',

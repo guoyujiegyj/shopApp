@@ -39,9 +39,7 @@ export default {
     // 此处不能用箭头函数。
     selected:function(newVal,oldVal) {
       // 参数是id的值。
-    
       this.$router.push({name:newVal})
-      console.log(this.selected)
     }
   }
 }

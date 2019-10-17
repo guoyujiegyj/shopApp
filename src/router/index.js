@@ -7,6 +7,7 @@ import Vip from '@/components/vip/Vip'
 import Find from '@/components/find/Find'
 import Cart from '@/components/cart/Cart'
 
+import NewsList from '@/components/newsList/newsList'
 Vue.use(Router)
 
 export default new Router({
@@ -34,6 +35,11 @@ export default new Router({
       path: '/find',
       name: 'find',
       component: Find
+    },
+    {
+      path: '/news/newslist',
+      name: 'newslist',
+      component: NewsList
     }
   ]
 })

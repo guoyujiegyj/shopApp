@@ -20,9 +20,11 @@
             <img class="mui-icon mui-icon-home" src="@/assets/image/menu5.png" alt="">
             <div class="mui-media-body">确认</div></a>
         </li>
-        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-            <img class="mui-icon mui-icon-home" src="@/assets/image/menu6.png" alt="">
-            <div class="mui-media-body">列表</div></a>
+        <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3">
+            <router-link to="news/newslist"> 
+                <img class="mui-icon mui-icon-home" src="@/assets/image/menu6.png" alt="">
+                <div class="mui-media-body">新闻列表</div>
+            </router-link>
         </li>
 	</ul>
 </template>
