@@ -32,6 +32,11 @@ Vue.component(MyUl.name, MyUl)
 import MyTitle from '@/components/common/Title'
 Vue.component(MyTitle.name,MyTitle) 
 
+// 导入时间格式插件
+import moment from 'moment'
+Vue.filter('dataFmt', (v) => {
+  return moment(v).format('YYYY-MM-DD h:mm:ss')
+})
 new Vue({
   el: '#app',
   router,
