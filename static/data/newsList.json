@@ -1,0 +1,95 @@
+{
+    "data": {
+        "status": 0,
+        "newsList": [
+            {
+                "title": "本季度多家房产投资失败，去年库存大量积压。明年开春有望进一步投资。",
+                "id": 1,
+                "addTime": "2015-04-16T03:59:28",
+                "zhaiyao": "房地产寒冬来临",
+                "imageUrl":"./static/image/shuijiao.jpg",
+                "click": 10
+            },
+            {
+                "title": "本季度多家房产投资失败，去年库存大量积压。明年开春有望进一步投资。",
+                "id": 2,
+                "addTime": "2015-04-16T03:59:28",
+                "zhaiyao": "房地产寒冬来临",
+                "imageUrl":"./static/image/muwu.jpg",
+                "click": 10
+            },
+            {
+                "title": "本季度多家房产投资失败，去年库存大量积压。明年开春有望进一步投资。",
+                "id": 3,
+                "addTime": "2015-04-16T03:59:28",
+                "zhaiyao": "房地产寒冬来临",
+                "imageUrl": "./static/image/cbd.jpg",
+                "click": 10
+            },
+            {
+                "title": "本季度多家房产投资失败，去年库存大量积压。明年开春有望进一步投资。",
+                "id": 4,
+                "addTime": "2015-04-16T03:59:28",
+                "zhaiyao": "房地产寒冬来临",
+                "imageUrl":"./static/image/muwu.jpg",
+                "click": 34
+            },
+            {
+                "title": "本季度多家房产投资失败，去年库存大量积压。明年开春有望进一步投资。",
+                "id": 5,
+                "addTime": "2015-04-16T03:59:28",
+                "zhaiyao": "房地产寒冬来临",
+                "imageUrl":"./static/image/shuijiao.jpg",
+                "click": 13
+            },
+            {
+                "title": "本季度多家房产投资失败，去年库存大量积压。明年开春有望进一步投资。",
+                "id": 6,
+                "addTime": "2015-04-16T03:59:28",
+                "zhaiyao": "房地产寒冬来临",
+                "imageUrl":"./static/image/cbd.jpg",
+                "click": 33
+            },
+            {
+                "title": "本季度多家房产投资失败，去年库存大量积压。明年开春有望进一步投资。",
+                "id": 7,
+                "addTime": "2015-04-16T03:59:28",
+                "zhaiyao": "房地产寒冬来临",
+                "imageUrl":"./static/image/muwu.jpg",
+                "click": 20
+            },
+            {
+                "title": "本季度多家房产投资失败，去年库存大量积压。明年开春有望进一步投资。",
+                "id": 8,
+                "addTime": "2015-04-16T03:59:28",
+                "zhaiyao": "房地",
+                "imageUrl":"./static/image/cbd.jpg",
+                "click": 10
+            },
+            {
+                "title": "本季度多家房产投资失败，去年库存大量积压。明年开春有望进一步投资。",
+                "id": 9,
+                "addTime": "2015-04-16T03:59:28",
+                "zhaiyao": "房地产寒冬来临",
+                "imageUrl":"./static/image/muwu.jpg",
+                "click": 80
+            },
+            {
+                "title": "本季度多家房产投资失败，去年库存大量积压。明年开春有望进一步投资。",
+                "id": 10,
+                "addTime": "2015-04-16T03:59:28",
+                "zhaiyao": "房地产",
+                "imageUrl":"./static/image/shuijiao.jpg",
+                "click": 100
+            },
+            {
+                "title": "本季度多家房产投资失败，去年库存大量积压。明年开春有望进一步投资。",
+                "id": 11,
+                "addTime": "2015-04-16T03:59:28",
+                "zhaiyao": "a",
+                "imageUrl":"./static/image/shuijiao.jpg",
+                "click": 100
+            }
+        ]
+    }
+}

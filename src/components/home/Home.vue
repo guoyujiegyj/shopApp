@@ -24,7 +24,7 @@ export default {
     },
     methods: {
         getLunboList() {
-            this.axios.get('static/data/home.json').then(res=>{
+            this.axios.get('data/home.json').then(res=>{
                 this.lunboList = res.data.data.swiperList    
             })
         }

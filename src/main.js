@@ -23,7 +23,7 @@ import Axios from 'axios'
 Vue.use(myHttp)
 
 //域名基本配置
-Axios.defaults.baseURL='http://localhost:8080/'
+Axios.defaults.baseURL='http://localhost:8080/static/'
 
 // 导入组件九宫格
 import MyUl from '@/components/common/Myul'

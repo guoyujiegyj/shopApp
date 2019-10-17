@@ -6,7 +6,7 @@
     <router-view/>
 
     <!--tababr-->
-     <mt-tabbar v-model="selected">
+     <mt-tabbar class="my-tabbar" v-model="selected">
         <mt-tab-item id="find">
             <img slot="icon" src="./assets/image/find.png">
             查找
@@ -48,5 +48,12 @@ export default {
 <style>
   body{
      max-width: 460px;
+     padding-bottom:56px;
+  }
+  .my_tabbar{
+    margin-bottom: 0;
+  }
+  .mint-tabbar{
+    position: fixed;
   }
 </style>
